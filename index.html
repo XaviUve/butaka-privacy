@@ -55,7 +55,7 @@
   <main>
     <header>
       <h1><span class="brand">BUTAKA</span> · Política de privacidad</h1>
-      <p class="updated">Última actualización: 28 de julio de 2026</p>
+      <p class="updated">Última actualización: 19 de agosto de 2026</p>
       <nav>
         <a href="./index.html">Privacidad</a>
         <a href="./terms.html">Términos</a>
@@ -73,7 +73,7 @@
       <h2>2. Datos que podemos tratar</h2>
       <ul>
         <li>Datos de cuenta: nombre, nickname, correo electrónico e identificador de inicio de sesión cuando usas Apple o Google.</li>
-        <li>Foto de perfil, si decides añadirla.</li>
+        <li>Foto de perfil, si decides añadirla. La imagen seleccionada se analiza automáticamente para detectar contenido inapropiado antes de publicarse.</li>
         <li>Películas y series marcadas como vistas, por ver o no interesantes.</li>
         <li>Notas personales que das a películas y series.</li>
         <li>Solicitudes de amistad, lista de amigos y preferencias de notificación.</li>
@@ -92,6 +92,7 @@
         <li>Gestionar solicitudes de amistad y enlaces de invitación.</li>
         <li>Enviar notificaciones sobre solicitudes, amigos o actividad relacionada, si las tienes activadas.</li>
         <li>Mantener la seguridad, estabilidad y funcionamiento básico de la app.</li>
+        <li>Moderar las fotos de perfil y evitar la publicación de contenido inapropiado.</li>
       </ul>
     </section>
 
@@ -103,6 +104,7 @@
         <li>Apple y Google, para inicio de sesión.</li>
         <li>Expo, para notificaciones push y actualizaciones.</li>
         <li>TMDB, para información de películas y series, carteles, sinopsis, reparto, metadatos y disponibilidad.</li>
+        <li>Amazon Web Services (AWS Rekognition), para analizar automáticamente las fotos de perfil y detectar contenido inapropiado. La imagen seleccionada se transmite de forma segura a AWS para realizar este análisis. Si se aprueba, se almacena en Supabase como foto de perfil; si se rechaza, no se publica como avatar.</li>
       </ul>
       <p>BUTAKA no vende tus datos personales.</p>
       <p class="muted">Esta aplicación utiliza TMDB y sus API, pero no está respaldada ni certificada por TMDB.</p>
